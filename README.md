@@ -31,6 +31,15 @@ I build systems that fail loudly, preserve evidence, and remain reproducible.<br
 
 ---
 
+## Awards & Competitions
+
+| Result | Event | Scope |
+|---|---|---|
+| **우수상 · Excellence Award** | **CODE MEDI 2026** — 2026 의료 AI·SW 융합 해커톤 | 2026.06 · 팀 수상 |
+| **5위 · 5th Place** | **AI VOYAGE 2025** — AI 융합 데이터 해커톤 경진대회 | 2025.11 · 팀 성적 |
+
+---
+
 ## Selected Work
 
 <table>
