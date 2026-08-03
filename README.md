@@ -1,60 +1,90 @@
-<div align="center">
+# Seungwan Jeong
 
-# 정승완 · Seungwan Jeong
+<p align="center">
+  <img width="100%" alt="Seungwan Jeong — evidence first, fail closed, reproducible" src="./assets/profile-header.svg" />
+</p>
 
-**Computer Engineering @ Dong-A University**<br>
-ML Engineering · Backend · Reliable Systems
+<p align="center"><sub><em>
+I build systems that fail loudly, preserve evidence, and remain reproducible.<br />
+모델의 정확도만큼 데이터 누수, 실행 경계, 실패 이후에 남는 증거를 중요하게 봅니다.<br />
+에러 없이 끝났지만 결과가 없는 시스템을 추적하고, 조용한 실패가 다음 단계로 넘어가지 않게 만듭니다.
+</em></sub></p>
 
-데이터와 모델이 실제 시스템에서 안전하게 동작하는 조건을 만듭니다.
+<p align="center">
+  <a href="https://github.com/JeveloperSW/ai-stock-trading-portfolio">AI Trading</a> ·
+  <a href="https://github.com/hadesee/deep-learning-stock-trading">Capstone</a> ·
+  <a href="https://github.com/JeveloperSW/victory-1944-portfolio">Victory 1944</a> ·
+  <a href="https://github.com/JeveloperSW/Dong-A-UNIV">Coursework</a>
+</p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+---
 
-</div>
+## Now
 
-## About
+**Computer Engineering @ Dong-A University** — 4학년, **2027년 2월 졸업 예정**. ML/Data Engineering, Backend Engineering, Reliable Systems에 관심이 있습니다.
 
-- 동아대학교 컴퓨터공학과 4학년 · **2027년 2월 졸업 예정**
-- 관심 분야: **ML/Data Engineering, Backend Engineering, Reliable Systems**
-- 모델 정확도뿐 아니라 데이터 누수, 실패 차단, 재현 가능한 검증과 운영 증거를 중요하게 생각합니다.
+**[AI Trading System](https://github.com/JeveloperSW/ai-stock-trading-portfolio)** — 비공개 AI 보조 트레이딩 운영 시스템에서 공개 가능한 부분을 선별하고 있습니다. 브로커 응답 정규화, 주문 영수증 결속, 재시도 소진 복구와 Mock-only 대시보드를 공개 스냅샷으로 분리했습니다.
 
-## Featured Projects
+**[Victory 1944](https://github.com/JeveloperSW/victory-1944-portfolio)** — 결정론적 전투·경제 시뮬레이션, 서버 권위 상태, SQLite 복구 경로와 PixiJS 모바일 클라이언트를 분리한 전략 게임 프로토타입을 개발하고 있습니다.
 
-### [AI Trading System Portfolio](https://github.com/JeveloperSW/ai-stock-trading-portfolio)
+**[KOSPI200 Transformer Pipeline](https://github.com/hadesee/deep-learning-stock-trading)** — 졸업 캡스톤 팀 프로젝트에서 프런트엔드와 통합을 담당했습니다. 대시보드·종목 상세 화면, 비동기 후보 실행, Gemini 뉴스 UI, 실시간 가격·KIS 연동 안정화 커밋이 원본 저장소에 남아 있습니다.
 
-**개인 프로젝트 · Mock-only 공개 스냅샷**
+---
 
-- AI 보조 트레이딩 운영 시스템의 공개 가능한 엔지니어링 사례
-- 브로커 응답 정규화, 주문 영수증 결속, 재시도 소진 복구 등 결정론적 실행 안전성 예제
-- React·TypeScript 운영 대시보드와 Python 백엔드 샘플 분리
+## Selected Work
 
-> 실거래 연결과 투자 성과를 포함하지 않으며, 투자 조언이 아닙니다.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/JeveloperSW/ai-stock-trading-portfolio"><b>AI Trading System Portfolio</b></a><br />
+      <sub>Mock-only operations dashboard + deterministic execution-safety examples</sub><br /><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=execution%20safety%20%7C%20evidence&labelColor=0ea5e9&color=111827" alt="focus execution safety and evidence" /><br />
+      <code>Python</code> <code>TypeScript</code> <code>React</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/hadesee/deep-learning-stock-trading"><b>KOSPI200 Transformer Pipeline</b></a><br />
+      <sub>Team capstone · Frontend/Integration Contributor</sub><br /><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=ml%20pipeline%20%7C%20integration&labelColor=8b5cf6&color=111827" alt="focus ML pipeline and integration" /><br />
+      <a href="https://github.com/hadesee/deep-learning-stock-trading/commit/0733bd8f4267a8a5457a511bfa40b311bea645ae">dashboard</a> ·
+      <a href="https://github.com/hadesee/deep-learning-stock-trading/commit/738c300b4ec8d64189dfd211767b84bf673fc69c">async + Gemini</a> ·
+      <a href="https://github.com/hadesee/deep-learning-stock-trading/commit/6737d3aa9d6cadf954e4c2fe35a6cc800bf6ae4f">KIS stability</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/JeveloperSW/victory-1944-portfolio"><b>Victory 1944</b></a><br />
+      <sub>Mobile-first strategy game with a deterministic simulation core</sub><br /><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=simulation%20%7C%20server%20authority&labelColor=22c55e&color=111827" alt="focus simulation and server authority" /><br />
+      <code>TypeScript</code> <code>PixiJS</code> <code>SQLite</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/JeveloperSW/Dong-A-UNIV"><b>Dong-A-UNIV</b></a><br />
+      <sub>동아대학교 학부 과정 과제와 오픈소스 수업 기록</sub><br /><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=coursework%20%7C%20open%20source&labelColor=f59e0b&color=111827" alt="focus coursework and open source" /><br />
+      <code>Python</code> <code>Jupyter</code> <code>Git</code>
+    </td>
+  </tr>
+</table>
 
-### [Victory 1944](https://github.com/JeveloperSW/victory-1944-portfolio)
+---
 
-**개인 프로젝트 · 모바일 우선 전략 게임 프로토타입**
+## Engineering Highlights
 
-- 전투·경제·캠페인·성장을 다루는 결정론적 시뮬레이션 엔진
-- Node.js·SQLite 기반 서버 권위 애플리케이션 계층과 복구 경로
-- TypeScript·PixiJS·Capacitor 기반 모바일 클라이언트
+| Area | What I worked on |
+|---|---|
+| **Execution safety** | 브로커 응답 정규화, 정확한 영수증 결속, 재시도 소진 시 복구 경로 |
+| **Verification** | 데이터 누수 차단, 재현 가능한 검증, 결과가 없는 실행의 원인 추적 |
+| **System boundaries** | 연구·계획·실행 증거 분리, 서버 권위 규칙과 클라이언트 상태 분리 |
+| **Team contribution** | 캡스톤 원본 저장소의 프런트엔드·통합 커밋으로 담당 범위 연결 |
 
-### [KOSPI200 Transformer Stock Analysis Pipeline](https://github.com/hadesee/deep-learning-stock-trading)
-
-**졸업 캡스톤 팀 프로젝트 · Frontend/Integration Contributor**
-
-- 트레이딩 대시보드와 종목 상세 화면 구현
-- 비동기 후보 실행 및 Gemini 뉴스 분석 UI 연동
-- 실시간 가격·캐시와 KIS API 호출 제한 관련 오류 수정
-- 기여 커밋: [대시보드·종목 상세](https://github.com/hadesee/deep-learning-stock-trading/commit/0733bd8f4267a8a5457a511bfa40b311bea645ae) · [비동기 후보·Gemini](https://github.com/hadesee/deep-learning-stock-trading/commit/738c300b4ec8d64189dfd211767b84bf673fc69c) · [실시간 가격·KIS 안정화](https://github.com/hadesee/deep-learning-stock-trading/commit/6737d3aa9d6cadf954e4c2fe35a6cc800bf6ae4f)
-
-## Coursework
-
-- [Dong-A-UNIV](https://github.com/JeveloperSW/Dong-A-UNIV) — 동아대학교 학부 과정 과제 아카이브
+> 공개 트레이딩 저장소는 Mock 전용 포트폴리오입니다. 실거래 연결이나 투자 성과를 주장하지 않습니다.
 
 ---
 
 <p align="center">
-  <sub>Build for evidence, fail closed, and keep the system reproducible.</sub>
+  <img src="https://streak-stats.demolab.com?user=JeveloperSW&theme=transparent&hide_border=true&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=8b949e&sideNums=8b949e" alt="GitHub activity streak for JeveloperSW" height="165" />
 </p>
+
+<p align="center"><sub>
+Evidence over assumptions · Fail closed · Keep it reproducible
+</sub></p>
