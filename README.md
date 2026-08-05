@@ -21,7 +21,7 @@ I build systems that fail loudly, preserve evidence, and remain reproducible.<br
 
 ## Now
 
-**Computer Engineering @ Dong-A University** — 4학년, **2027년 2월 졸업 예정**. 
+**Computer Engineering @ Dong-A University** — 4학년, **2027년 2월 졸업 예정**.<br />
 ML/Data Engineering, Backend Engineering, Reliable Systems에 관심이 있습니다.
 
 **[AI Trading System](https://github.com/JeveloperSW/ai-stock-trading-portfolio)** — 비공개 AI 보조 트레이딩 운영 시스템에서 공개 가능한 부분을 선별하고 있습니다. 브로커 응답 정규화, 주문 영수증 결속, 재시도 소진 복구와 Mock-only 대시보드를 공개 스냅샷으로 분리했습니다.
