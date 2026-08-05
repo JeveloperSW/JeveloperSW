@@ -24,11 +24,13 @@ I build systems that fail loudly, preserve evidence, and remain reproducible.<br
 **Computer Engineering @ Dong-A University** — 4학년, **2027년 2월 졸업 예정**.<br />
 ML/Data Engineering, Backend Engineering, Reliable Systems에 관심이 있습니다.
 
-**[AI Trading System](https://github.com/JeveloperSW/ai-stock-trading-portfolio)** — 비공개 AI 보조 트레이딩 운영 시스템에서 공개 가능한 부분을 선별하고 있습니다. 브로커 응답 정규화, 주문 영수증 결속, 재시도 소진 복구와 Mock-only 대시보드를 공개 스냅샷으로 분리했습니다.
+**[AI Trading System](https://github.com/JeveloperSW/ai-stock-trading-portfolio)** — 비공개 AI 보조 트레이딩 운영 시스템에서 공개 가능한 부분을 선별하고 있습니다.<br />
+브로커 응답 정규화, 주문 영수증 결속, 재시도 소진 복구와 Mock-only 대시보드를 공개 스냅샷으로 분리했습니다.
 
 **[Victory 1944](https://github.com/JeveloperSW/victory-1944-portfolio)** — 결정론적 전투·경제 시뮬레이션, 서버 권위 상태, SQLite 복구 경로와 PixiJS 모바일 클라이언트를 분리한 전략 게임 프로토타입을 개발하고 있습니다.
 
-**[KOSPI200 Transformer Pipeline](https://github.com/hadesee/deep-learning-stock-trading)** — 졸업 캡스톤 팀 프로젝트에서 프런트엔드와 통합을 담당했습니다. 대시보드·종목 상세 화면, 비동기 후보 실행, Gemini 뉴스 UI, 실시간 가격·KIS 연동 안정화 커밋이 원본 저장소에 남아 있습니다.
+**[KOSPI200 Transformer Pipeline](https://github.com/hadesee/deep-learning-stock-trading)** — 졸업 캡스톤 팀 프로젝트에서 프런트엔드와 통합을 담당했습니다.<br />
+대시보드·종목 상세 화면, 비동기 후보 실행, Gemini 뉴스 UI, 실시간 가격·KIS 연동 안정화 커밋이 원본 저장소에 남아 있습니다.
 
 ---
 
