@@ -1,7 +1,7 @@
 # Seungwan Jeong
 
 <p align="center">
-  <img width="100%" alt="Seungwan Jeong — evidence first, fail closed, reproducible" src="./assets/profile-header-v2.svg" />
+  <img width="100%" alt="Seungwan Jeong profile header" src="./assets/profile-header-g-animated.gif" />
 </p>
 
 <p align="center"><sub><em>
