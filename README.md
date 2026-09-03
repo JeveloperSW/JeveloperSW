@@ -13,7 +13,6 @@ I build systems that fail loudly, preserve evidence, and remain reproducible.<br
 <p align="center">
   <a href="https://github.com/JeveloperSW/ai-stock-trading-portfolio">AI Trading</a> ·
   <a href="https://github.com/hadesee/deep-learning-stock-trading">Capstone</a> ·
-  MealChat ·
   <a href="https://github.com/JeveloperSW/victory-1944-portfolio">Victory 1944</a> ·
   <a href="https://github.com/JeveloperSW/Dong-A-UNIV">Coursework</a>
 </p>
@@ -32,9 +31,6 @@ ML/Data Engineering, Backend Engineering, Reliable Systems에 관심이 있습�
 
 **[KOSPI200 Transformer Pipeline](https://github.com/hadesee/deep-learning-stock-trading)** — 졸업 캡스톤 팀 프로젝트에서 프런트엔드와 통합을 담당했습니다.<br />
 대시보드·종목 상세 화면, 비동기 후보 실행, Gemini 뉴스 UI, 실시간 가격·KIS 연동 안정화 커밋이 원본 저장소에 남아 있습니다.
-
-**MealChat** — 식사 약속 생성과 참여 과정을 모바일 환경에서 단순화한 팀 프로젝트입니다.<br />
-React Native 기반 클라이언트와 인증·데이터 연동을 구현했으며, **2026 전국대학 소프트웨어 성과 공유포럼에서 우수상과 인기상을 수상했습니다.**
 
 ---
 
@@ -76,16 +72,23 @@ React Native 기반 클라이언트와 인증·데이터 연동을 구현했으�
       <code>TypeScript</code> <code>PixiJS</code> <code>SQLite</code>
     </td>
     <td width="50%" valign="top">
+      <b>PatientPatient</b><br />
+      <sub>AI standardized-patient simulator for CPX training and rubric-based assessment</sub><br /><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=AI%20patient%20%7C%20rubric%20scoring&labelColor=14b8a6&color=111827" alt="focus AI patient and rubric scoring" /><br />
+      <code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>OpenAI</code><br /><br />
+      <sub>🏆 CODE MEDI 2026 · 우수상</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%" valign="top">
       <b>MealChat</b><br />
       <sub>Mobile platform for organizing and joining meal meetups</sub><br /><br />
       <img src="https://img.shields.io/static/v1?style=for-the-badge&label=award&message=Excellence%20%7C%20Popularity&labelColor=ec4899&color=111827" alt="MealChat Excellence Award and Popularity Award" /><br />
       <code>React Native</code> <code>Expo</code> <code>TypeScript</code> <code>Supabase</code><br /><br />
       <sub>🏆 2026 전국대학 소프트웨어 성과 공유포럼 · 우수상 / 인기상</sub>
     </td>
-  </tr>
-
-  <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/JeveloperSW/Dong-A-UNIV"><b>Dong-A-UNIV</b></a><br />
       <sub>동아대학교 학부 과정 과제와 오픈소스 수업 기록</sub><br /><br />
       <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=coursework%20%7C%20open%20source&labelColor=f59e0b&color=111827" alt="focus coursework and open source" /><br />
@@ -96,6 +99,37 @@ React Native 기반 클라이언트와 인증·데이터 연동을 구현했으�
 
 ---
 
+## Project Highlights
+
+### PatientPatient
+
+AI 표준화환자와 실제 CPX 흐름을 연습하고, 수행 결과를 자동 평가하는 의료교육 시뮬레이터입니다.
+
+- **문진 → 신체진찰 → 환자교육 → 채점** 단계의 CPX 세션 구성
+- 텍스트와 음성을 이용한 AI 표준화환자 상호작용
+- 자유 발화로 입력한 신체진찰 의도를 표준 진찰 항목과 부위로 구조화
+- 진찰 수행 여부와 수행 방법을 반영하는 루브릭 기반 평가
+- 증례와 채점 기준을 실행 코드에서 분리해 새로운 증례를 데이터 중심으로 확장
+
+`Next.js` · `React` · `TypeScript` · `Vercel AI SDK` · `OpenAI` · `Zod`
+
+> 🏆 **CODE MEDI 2026 의료 AI·SW 융합 해커톤 — 우수상**
+
+### MealChat
+
+식사 약속을 만들고 참여하는 과정을 모바일 환경에서 단순화한 팀 프로젝트입니다.
+
+- React Native / Expo 기반 모바일 클라이언트
+- 사용자 인증 및 Supabase 데이터 연동
+- 약속 생성과 참여를 중심으로 한 모바일 UI/UX
+- Android 환경에서 실제 앱 빌드 및 통합 작업
+
+`React Native` · `Expo` · `TypeScript` · `Supabase`
+
+> 🏆 **2026 제3회 전국대학 소프트웨어 성과 공유포럼 — 우수상 · 인기상**
+
+---
+
 ## Engineering Highlights
 
 | Area | What I worked on |
@@ -103,8 +137,9 @@ React Native 기반 클라이언트와 인증·데이터 연동을 구현했으�
 | **Execution safety** | 브로커 응답 정규화, 정확한 영수증 결속, 재시도 소진 시 복구 경로 |
 | **Verification** | 데이터 누수 차단, 재현 가능한 검증, 결과가 없는 실행의 원인 추적 |
 | **System boundaries** | 연구·계획·실행 증거 분리, 서버 권위 규칙과 클라이언트 상태 분리 |
-| **Integration** | 모바일·웹 클라이언트와 인증, API, 실시간 데이터 경계 연결 |
-| **Team contribution** | 캡스톤 및 팀 프로젝트의 프런트엔드·통합 범위를 저장소와 커밋으로 연결 |
+| **AI integration** | LLM 구조화 출력, 음성 인터페이스, 데이터 기반 프롬프트·평가 경계 설계 |
+| **Application integration** | 모바일·웹 클라이언트와 인증, API, 데이터 계층의 연결 |
+| **Team contribution** | 팀 프로젝트의 구현 범위와 결과물을 저장소·커밋·수상 실적으로 연결 |
 
 > 공개 트레이딩 저장소는 Mock 전용 포트폴리오입니다. 실거래 연결이나 투자 성과를 주장하지 않습니다.
 
