@@ -13,6 +13,7 @@ I build systems that fail loudly, preserve evidence, and remain reproducible.<br
 <p align="center">
   <a href="https://github.com/JeveloperSW/ai-stock-trading-portfolio">AI Trading</a> ·
   <a href="https://github.com/hadesee/deep-learning-stock-trading">Capstone</a> ·
+  MealChat ·
   <a href="https://github.com/JeveloperSW/victory-1944-portfolio">Victory 1944</a> ·
   <a href="https://github.com/JeveloperSW/Dong-A-UNIV">Coursework</a>
 </p>
@@ -32,14 +33,18 @@ ML/Data Engineering, Backend Engineering, Reliable Systems에 관심이 있습�
 **[KOSPI200 Transformer Pipeline](https://github.com/hadesee/deep-learning-stock-trading)** — 졸업 캡스톤 팀 프로젝트에서 프런트엔드와 통합을 담당했습니다.<br />
 대시보드·종목 상세 화면, 비동기 후보 실행, Gemini 뉴스 UI, 실시간 가격·KIS 연동 안정화 커밋이 원본 저장소에 남아 있습니다.
 
+**MealChat** — 식사 약속 생성과 참여 과정을 모바일 환경에서 단순화한 팀 프로젝트입니다.<br />
+React Native 기반 클라이언트와 인증·데이터 연동을 구현했으며, **2026 전국대학 소프트웨어 성과 공유포럼에서 우수상과 인기상을 수상했습니다.**
+
 ---
 
 ## Awards & Competitions
 
-| Result | Event | Scope |
+| Result | Event | Project / Scope |
 |---|---|---|
-| **우수상 · Excellence Award** | **CODE MEDI 2026** — 2026 의료 AI·SW 융합 해커톤 | 2026.06 · 팀 수상 |
-| **5위 · 5th Place** | **AI VOYAGE 2025** — AI 융합 데이터 해커톤 경진대회 | 2025.11 · 팀 성적 |
+| **우수상 · Excellence Award**<br />**인기상 · Popularity Award** | **2026 제3회 전국대학 소프트웨어 성과 공유포럼** | **MealChat** · 2026.08 · Team |
+| **우수상 · Excellence Award** | **CODE MEDI 2026** — 의료 AI·SW 융합 해커톤 | **PatientPatient** · 2026.06 · Team |
+| **5위 · 5th Place** | **AI VOYAGE 2025** — AI 융합 데이터 해커톤 경진대회 | 2025.11 · Team |
 
 ---
 
@@ -55,13 +60,14 @@ ML/Data Engineering, Backend Engineering, Reliable Systems에 관심이 있습�
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/hadesee/deep-learning-stock-trading"><b>KOSPI200 Transformer Pipeline</b></a><br />
-      <sub>Team capstone · Frontend/Integration Contributor</sub><br /><br />
+      <sub>Team capstone · Frontend / Integration Contributor</sub><br /><br />
       <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=ml%20pipeline%20%7C%20integration&labelColor=8b5cf6&color=111827" alt="focus ML pipeline and integration" /><br />
       <a href="https://github.com/hadesee/deep-learning-stock-trading/commit/0733bd8f4267a8a5457a511bfa40b311bea645ae">dashboard</a> ·
       <a href="https://github.com/hadesee/deep-learning-stock-trading/commit/738c300b4ec8d64189dfd211767b84bf673fc69c">async + Gemini</a> ·
       <a href="https://github.com/hadesee/deep-learning-stock-trading/commit/6737d3aa9d6cadf954e4c2fe35a6cc800bf6ae4f">KIS stability</a>
     </td>
   </tr>
+
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/JeveloperSW/victory-1944-portfolio"><b>Victory 1944</b></a><br />
@@ -70,6 +76,16 @@ ML/Data Engineering, Backend Engineering, Reliable Systems에 관심이 있습�
       <code>TypeScript</code> <code>PixiJS</code> <code>SQLite</code>
     </td>
     <td width="50%" valign="top">
+      <b>MealChat</b><br />
+      <sub>Mobile platform for organizing and joining meal meetups</sub><br /><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=award&message=Excellence%20%7C%20Popularity&labelColor=ec4899&color=111827" alt="MealChat Excellence Award and Popularity Award" /><br />
+      <code>React Native</code> <code>Expo</code> <code>TypeScript</code> <code>Supabase</code><br /><br />
+      <sub>🏆 2026 전국대학 소프트웨어 성과 공유포럼 · 우수상 / 인기상</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" valign="top">
       <a href="https://github.com/JeveloperSW/Dong-A-UNIV"><b>Dong-A-UNIV</b></a><br />
       <sub>동아대학교 학부 과정 과제와 오픈소스 수업 기록</sub><br /><br />
       <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=coursework%20%7C%20open%20source&labelColor=f59e0b&color=111827" alt="focus coursework and open source" /><br />
@@ -87,7 +103,8 @@ ML/Data Engineering, Backend Engineering, Reliable Systems에 관심이 있습�
 | **Execution safety** | 브로커 응답 정규화, 정확한 영수증 결속, 재시도 소진 시 복구 경로 |
 | **Verification** | 데이터 누수 차단, 재현 가능한 검증, 결과가 없는 실행의 원인 추적 |
 | **System boundaries** | 연구·계획·실행 증거 분리, 서버 권위 규칙과 클라이언트 상태 분리 |
-| **Team contribution** | 캡스톤 원본 저장소의 프런트엔드·통합 커밋으로 담당 범위 연결 |
+| **Integration** | 모바일·웹 클라이언트와 인증, API, 실시간 데이터 경계 연결 |
+| **Team contribution** | 캡스톤 및 팀 프로젝트의 프런트엔드·통합 범위를 저장소와 커밋으로 연결 |
 
 > 공개 트레이딩 저장소는 Mock 전용 포트폴리오입니다. 실거래 연결이나 투자 성과를 주장하지 않습니다.
 
